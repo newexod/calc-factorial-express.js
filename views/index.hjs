@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>{{ title }} together</p>
+
+    <form id="fact">
+    	<input id="number" type="text">
+    	<input type="submit" value="Count the factorial">
+    </form>
+
+    <div class="res">
+    	<h1 id="factorial-res"></h1>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="/javascripts/script.js"></script>
+  </body>
+</html>
